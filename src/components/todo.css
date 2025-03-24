@@ -1,16 +1,17 @@
 :root {
-    --primary-color: #6366f1;
-    --hover-color: #4f46e5;
-    --background: #f8fafc;
-    --text-color: #1e293b;
+    --primary-color: #00b7ff;
+    --hover-color: #11d2eb;
+    --background: #20c0ff;
+    --text-color: rgb(255, 255, 255);
     --success-color: #10b981;
     --danger-color: #ef4444;
-    --edit-color: #3b82f6;
-    --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    --edit-color: #c00000;
+    --shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.1);
   }
   
   body {
-    background-color: var(--background);
+    background: url('../assets/building.jpg');
+    background-size: cover;
     min-height: 100vh;
     font-family: 'Inter', system-ui, -apple-system, sans-serif;
   }
@@ -28,6 +29,7 @@
     text-align: center;
     margin-bottom: 2rem;
     letter-spacing: -0.025em;
+    font-family: 'poppins';
   }
   
   form {
@@ -45,7 +47,7 @@
     border: 2px solid #e2e8f0;
     border-radius: 0.5rem;
     font-size: 1rem;
-    transition: border-color 0.2s;
+    transition: border-color 0.2s;font-family: 'poppins';
   }
   
   input:focus {
@@ -64,6 +66,7 @@
     cursor: pointer;
     transition: all 0.2s;
     flex-shrink: 0;
+    font-family: 'poppins';
   }
   
   button:hover {
@@ -73,7 +76,7 @@
   }
   
   .list {
-    background: white;
+    background: transparent;
     border-radius: 1rem;
     padding: 1rem;
     box-shadow: var(--shadow);
@@ -95,6 +98,7 @@
     border-radius: 0.5rem;
     transition: all 0.2s;
     animation: slideIn 0.3s ease-out;
+    font-family: 'poppins';
   }
   
   .list ol li:hover {
